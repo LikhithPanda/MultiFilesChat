@@ -1,6 +1,6 @@
-# MultiDocChat
+# MultiFilesChat
 
-MultiDocChat is a Streamlit-based Retrieval-Augmented Generation (RAG) app that lets you upload documents and ask questions about them using Google Gemini and FAISS vector search.
+MultiFilesChat is a Streamlit-based Retrieval-Augmented Generation (RAG) app that lets you upload documents and ask questions about them using Google Gemini and FAISS vector search.
 
 It supports a wide mix of file types, extracts text from them, chunks the content, embeds it with Gemini, and then answers questions based only on the uploaded material.
 
@@ -39,7 +39,7 @@ The app supports:
 ## Project structure
 
 ```text
-MultiDocChat/
+MultiFilesChat/
 ├── app.py                # Streamlit application
 ├── file_loaders.py       # File extraction and text normalization
 ├── requirements.txt      # Python dependencies
